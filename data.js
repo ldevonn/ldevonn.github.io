@@ -9,25 +9,25 @@ export const bio = [
 export const skills = [
     {
         title: "Languages",
-        skillName: "JavaScript, TypeScript",
+        skillName: "JavaScript, Python",
         color: "1",
         percentage: "80",
     },
     {
         title: "Frameworks/Libraries",
-        skillName: "Angular, RxJS, NGXS",
+        skillName: "React",
         color: "6",
         percentage: "70",
     },
     {
         title: "Design",
-        skillName: "HTML, Bootstrap, Tailwind",
+        skillName: "HTML, CSS",
         color: "4",
         percentage: "70",
     },
     {
         title: "Version Control",
-        skillName: "GitHub, JIRA, Bitbucket",
+        skillName: "GitHub, Git",
         color: "7",
         percentage: "70",
     },
@@ -38,14 +38,8 @@ export const skills = [
         percentage: "80",
     },
     {
-        title: "Analytics",
-        skillName: "CleverTap, Countly",
-        color: "5",
-        percentage: "50",
-    },
-    {
         title: "IDE",
-        skillName: "VS Code",
+        skillName: "VS Code, PyCharm, WebStorm",
         color: "6",
         percentage: "70",
     },
@@ -242,16 +236,8 @@ export const footer = [
         label: "Dev Profiles",
         data: [
             {
-                text: "Stackoverflow",
-                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-            },
-            {
                 text: "GitHub",
                 link: "https://github.com/vinaysomawat",
-            },
-            {
-                text: "LeetCode",
-                link: "https://leetcode.com/somawatvinay/",
             },
         ],
     },
@@ -262,14 +248,6 @@ export const footer = [
                 text: "Enable Dark/Light Mode",
                 func: "enableDarkMode()",
             },
-            {
-                text: "Print this page",
-                func: "window.print()",
-            },
-            {
-                text: "Clone this page",
-                link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-            },
         ],
     },
     {
@@ -279,21 +257,6 @@ export const footer = [
                 text: "Linkedin",
                 link: "https://www.linkedin.com/in/vinaysomawat/",
             },
-            {
-                text: "Twitter",
-                link: "https://twitter.com/thesigmakid",
-            },
-            {
-                text: "Buy me a coffee",
-                link: "https://www.buymeacoffee.com/r194dME8y",
-            },
-        ],
-    },
-    {
-        label: "copyright-text",
-        data: [
-            "Made with &hearts; by Vinay Somawat.",
-            "&copy; No Copyrights. Feel free to use this template.",
         ],
     },
 ];
